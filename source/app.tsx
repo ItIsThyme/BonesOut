@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Text } from 'ink';
 import FlexBox from './components/flexBox.js';
-import Robot from './components/robot.js';
+import FakeConsole from './components/fakeConsole.js';
 
 type Props = {
 	name: string | undefined;
@@ -17,7 +17,7 @@ export default function App({ name = 'Stranger' }: Props) {
 				</Text>
 			</FlexBox>
 
-			<Robot />
+			<FakeConsole />
 		</Box>
 	);
 }
