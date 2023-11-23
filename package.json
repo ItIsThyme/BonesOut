@@ -1,5 +1,5 @@
 {
-	"name": "bones-out",
+	"name": "@itisthyme/bones-out",
 	"version": "0.0.0",
 	"license": "MIT",
 	"bin": "dist/cli.js",
