@@ -1,22 +1,18 @@
 import React from 'react';
-import { Box, Text } from 'ink';
-import FlexBox from './components/flexBox.js';
+import { Box } from 'ink';
 import FakeConsole from './components/fakeConsole.js';
+import TabSelector from './components/tabSelector.js';
 
 type Props = {
 	name: string | undefined;
 };
 
-export default function App({ name = 'Stranger' }: Props) {
+export default function App({ }: Props) {
 
 	return (
 		<Box flexDirection='column'>
-			<FlexBox borderStyle={"classic"} >
-				<Text>
-					Hello, <Text color="green">{name}</Text>
-				</Text>
-			</FlexBox>
-
+			<TabSelector tabs={[{ title: "Testing" }, { title: "Testing2" }, { title: "Testing3" },]} />
+			
 			<FakeConsole />
 		</Box>
 	);

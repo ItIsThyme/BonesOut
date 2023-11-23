@@ -51,5 +51,8 @@
 			"react/prop-types": "off"
 		}
 	},
+	"publishConfig": {
+		"@ItIsThyme:registry": "https://npm.pkg.github.com"
+	},
 	"prettier": "@vdemedes/prettier-config"
 }
