@@ -1,5 +1,5 @@
 {
-	"name": "my-ink-cli",
+	"name": "bones-out",
 	"version": "0.0.0",
 	"license": "MIT",
 	"bin": "dist/cli.js",
@@ -54,5 +54,6 @@
 	"publishConfig": {
 		"@ItIsThyme:registry": "https://npm.pkg.github.com"
 	},
-	"prettier": "@vdemedes/prettier-config"
+	"prettier": "@vdemedes/prettier-config",
+	"repository": "https://github.com/ItIsThyme/BonesOut.git"
 }
